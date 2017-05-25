@@ -20,21 +20,23 @@ export default class App extends Component {
         
         </Text>
            <Button
-            title="História1:
+            title="História 1:
             sonhos com Et's"
             onPress={this._handleButtonPress}
+            
           />
           
           
           <Button
-            title="História2: viagens astrais"
+            title="História 2: viagens astrais"
             onPress={this._handleButtonPress}
           />
     
         
           <Button
-            title="História3: reações inesperadas"
+            title="História 3: reações inesperadas"
             onPress={this._handleButtonPress}
+          
           />
       </View>
     );
@@ -44,6 +46,8 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   destaque:{
     fontSize: 35
+    
+    
   },
   container: {
     flex: 1,
@@ -54,13 +58,12 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     margin: 35,
-    fontSize: 45,
+    fontSize: 35,
     fontWeight: 'bold',
     textAlign: 'center',
-    color: 'pink',
+    color: ' #0066ff',
   },
 });
        
  
    
-
