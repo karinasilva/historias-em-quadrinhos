@@ -6,7 +6,7 @@ class HistóriaSonhosComEt extends Component {
   render(){
     return(
       <View>
-      Sonhos Místicos nos faz duvidar de toda "realidade" em que acreditamos. EU tenho sonhado muito com Et's,em alguns me peguei com muito medo,em outros eu gostei porque tive um contato harmonico... porém desconhecido de tudo que eu acreditava. ão tenho medo porque tenho um pouco de conhecimento e a noção de que não existi vida só no planeta terra.
+      Sonhos Místicos nos faz duvidar de toda "realidade" em que acreditamos. EU tenho sonhado muito com Ets,em alguns me peguei com muito medo,em outros eu gostei porque tive um contato harmonico... porém desconhecido de tudo que eu acreditava. ão tenho medo porque tenho um pouco de conhecimento e a noção de que não existi vida só no planeta terra.
       <Text>SonhosComEt</Text>
       </View>
    );
