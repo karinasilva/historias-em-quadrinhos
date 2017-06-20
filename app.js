@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Button, Alert, Image } from 'react-native';
+import { Text, View, StyleSheet, Button, ScrollView, Image } from 'react-native';
 import { Constants } from 'expo';
 import { StackNavigator } from 'react-navigation'
 
 class HistoriaReacoesInesperadas extends Component {
   render(){
     return(
-      <View>
+      <ScrollView style={{backgroundColor: 'black'}}>
       <Image style={{width:300, height: 200}} source={{uri:"http://www.frasesparaoface.com/wp-content/uploads/2013/11/mantenha-o-equilibrio.jpg"}} />
-      <Text>
+      <Text style={{color: 'pink', fontSize: 19}}>
    Achamos que conhecemos Quem vive a nossa volta ou,As pessoas que mas amamos. Mas cada ser se conhece?  Sabemos sempre como vamos reagir? Sabemos sempre que respostas dar ou, sabemos que decisão tomar sempre que aparece alguma? Exatamente não sabemos, As vezes acaba virando uma obrigação sobre Oque falamos Oque pensamos e Oque fazemos,tem aquela pressão toda. A ansiedade insaciável de fazer falar ou saber. Pessoas caladas,solitárias que já passaram por algo nessa vida ou na outra,sempre estão sufocadas com suas práprias palavras á comunicão é rara quando seus sentimentos estão em jogo. Isto é insegurança,baixa autoestima . O jeito solúvel para essas situaçoẽs é se reafirma da um tchau para o ego,e confiar no seu taco e confiar na sua mente sortuda.
    </Text>
       <Text>ReaçõesInesperadas</Text>
-    </View>
+    </ScrollView>
     )
   }
 }
@@ -20,22 +20,24 @@ class HistoriaReacoesInesperadas extends Component {
 class HistoriaViagensAstrais extends Component {
   render(){
     return(
-      <View>
+      <ScrollView style={{backgroundColor: 'black'}}>
+      
        <Image style={{width:300, height: 200}} source={{uri:"https://4.bp.blogspot.com/-nVvA9yD2ZPo/VV-wCmBA0GI/AAAAAAAAc9k/cSatx8rwwxM/s640/astralndgae5yehrreduzida.jpg"}} />
-       <Text>
+       <Text style={{color: 'pink',fontSize: 19}}>
       Dormimos relaxamos e pensamos que ficamos inconcientes. O motivo de pensarem assim é o fato de sonhar, assim tudo parece abstrato,surreal e lucído. Mas ai é que se enganam. Estamos mais acordados "dormindo",porque viajamos para outras dimensões... Vivemos tudo que na terceira dimensão não vivemos, quase nunca lembramos do que sonhamos. Um sonho significado sua vida,seus amigos,sua familia, E também contato com  outras dimensões. Se vive na dúvida, indeciso com que decisões tomar, lembre-se de seus sonhos. Se necessário anote todos assim que acorda,Para não esquece-los.
+      
       </Text>
       <Text>ViagensAstrais</Text>
-      </View>
+      </ScrollView>
    );
   }
 }
 class HistoriaSonhosComEt extends Component {
   render(){
     return(
-      <View>
+      <ScrollView style={{backgroundColor: 'black'}}>
        <Image style={{width:300, height: 200}} source={{uri:"https://abrilcosmopolitan.files.wordpress.com/2016/10/aplicativo-tecnologia-namoro-humano-et.jpg"}} />
-      <Text>
+      <Text style={{color: 'pink',fontSize: 19}}>
         Sonhos Místicos nos faz duvidar de toda "realidade" em que acreditamos, EU tenho sonhado muito com Ets.Em alguns me peguei com muito medo,em outros eu gostei porque tive um contato harmonico... porém desconhecido de tudo que eu acreditava. Não tenho mais aquele medo   maligno e o Entreconhecimento pessoal.
         Acredite ets existem, sempre estão nos vigiando e sempre estiveram Assim também foi em outras civilizações.
       </Text>
@@ -43,7 +45,7 @@ class HistoriaSonhosComEt extends Component {
     
       
      
-      </View>
+      </ScrollView>
    );
   }
 }
