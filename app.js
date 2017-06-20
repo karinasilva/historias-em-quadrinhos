@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Button, Alert, Image } from 'react-native';
 import { Constants } from 'expo';
 import { StackNavigator } from 'react-navigation'
 
-class HistoriaReaçõesInesperadas extends Component {
+class HistoriaReacoesInesperadas extends Component {
   render(){
     return(
       <View>
@@ -49,12 +49,6 @@ class HistoriaSonhosComEt extends Component {
 }
 
 class TelaPrincipal extends Component {
-  _handleButtonPress = () => {
-    Alert.alert(
-      'História!',
-      'ler a história!',
-    );
-  };
 
   render() {
     const { navigate } = this.props.navigation;
@@ -83,8 +77,8 @@ class TelaPrincipal extends Component {
     
         
           <Button
-            title="História 3: reações inesperadas"
-            onPress={() => navigate("ReaçõesInesperadas")}
+            title="História 3: reacoes inesperadas"
+            onPress={() => navigate("HistoriaReacoes")}
           
           />
       </Image>
@@ -95,7 +89,8 @@ class TelaPrincipal extends Component {
 const HistoriasEmQuadrinhos = StackNavigator({
   Main: {screen: TelaPrincipal},
   HistoriaEt: {screen: HistoriaSonhosComEt},
-  HistoriaAstrais: {screen: HistoriaViagensAstrais}
+  HistoriaAstrais: {screen: HistoriaViagensAstrais},
+  HistoriaReacoes: {screen: HistoriaReacoesInesperadas},
 });
 
 
